@@ -238,14 +238,20 @@
       <h2 class="subtitle">
         <h2 class="title is-5  has-text-centered">A.Real2Sim System Identification:</h2>
         <!-- <b style="font-size: 1.5rem">A.Real2Sim System Identification :</b><br><br> -->
-        <b><i>(a) Rendering alignment</i></b> : The robot in the target domain moves around the object, capturing multi-view observations to estimate the rendering parameters 𝜶 of 2D Gaussian Splats.<br><br>
-        <b><i>(b) Identification of physics parameters</i></b> : Once optimized, 𝜶 is frozen. Both source and target domain apply the same task-agnostic physical interactions 𝒂<i><sub>t</sub></i>. 
-        In the source domain, dynamics are computed via LCP with physical parameters <i>θ</i> to update the rendering. <i>θ</i>  is then optimized with the rendering loss between two domains.<br><br>
+        <p style="font-size: 18px; line-height: 1.5;">
+          <b><i>(a) Rendering alignment</i></b> : The robot in the target domain moves around the object, capturing multi-view observations to estimate the rendering parameters 𝜶 of 2D Gaussian Splats.<br>
+          <!-- <div style="height: 6px;"></div> -->
+          <b><i>(b) Identification of physics parameters</i></b> : Once optimized, 𝜶 is frozen. Both source and target domain apply the same task-agnostic physical interactions 𝒂<i><sub>t</sub></i>. 
+          In the source domain, dynamics are computed via LCP with physical parameters <i>θ</i> to update the rendering. <i>θ</i>  is then optimized with the rendering loss between two domains.<br><br>
+        </p>
+
         <h2 class="title is-5  has-text-centered">B.Sim2Real Policy Transfer:</h2>
-        <!-- <b style="font-size: 1.5rem">B.Sim2Real Policy Transfer :</b><br><br> -->
-        <b><i>(c) Policy learning with physics-aware digital cousins</i></b> : The identified world model is then used for policy learning. Physics-aware perturbations are introduced to 𝜶 and <i>θ</i> to mitigate the remained discrepancies from inaccurate observations.<br><br>
-        <b><i>(d) Transfer to the target domain without fine-tuning</i></b> : This ensemble of perturbed world models enhances the Sim2Real transferability of learned policies.
-         
+        <p style="font-size: 18px; line-height: 1.5;">
+          <b><i>(c) Policy learning with physics-aware digital cousins</i></b> : The identified world model is then used for policy learning. Physics-aware perturbations are introduced to 𝜶 and <i>θ</i> to mitigate the remained discrepancies from inaccurate observations.<br>
+          <!-- <div style="height: 10px;"></div> -->
+          <b><i>(d) Transfer to the target domain without fine-tuning</i></b> : This ensemble of perturbed world models enhances the Sim2Real transferability of learned policies.
+        </p>
+
       </h2>
     </div>
   </div>
