@@ -47,12 +47,65 @@
 <body>
 
 
+  <section class="hero is-link is-fullheight video" style="overflow: hidden; position:relative; background-image: url('./static/images/cover.png'); background-size: cover; background-position: center;">
+    <!-- <div class="hero-video" style="height: 100%; width: 177.77777778vh; min-width: 100%;min-height: 56.25vw;">
+      <video playsinline autoplay muted loop>
+        <source src="./static/videos/Hero-ASAP-Video-Website-Hero-16-9-202502031028-1080P.mp4" type="video/mp4">
+      </video>
+    </div> -->
+    <!-- <div class="hero-video is-hidden-tablet is-inline-block-mobile"
+      style="height: 154.28571428vw; width: 100%; min-width:64.81481481vh;min-height:100%;">
+      <video playsinline autoplay muted loop>
+        <source src=" ./static/videos/ASAP-Video-Website-Hero-9-16-4K-1080P.mp4" type="video/mp4">
+      </video>
+    </div> -->
+    
+    <!-- Hero content: will be in the middle -->
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title is-1 publication-title is-size-1-mobile" style="font-size: 6rem;">
+          PIN-WM
+        </h1>
+        <h1 class="subtitle is-1 publication-title is-size-4-mobile" style="font-size: 4rem;">
+          Learning Physics-INformed World Models for Non-Prehensile Manipulation
+        </h1>
+        <h1 class="is-2 is-italic is-size-4-mobile" style="font-size: 2rem; opacity: 80%;">
+          Robotics: Science and Systems (RSS) 2025
+        </h1>
+        <!--  <h1 class="is-2 is-italic is-size-4-mobile" style="font-size: 1.5rem; opacity: 80%;">
+          <b>Spotlight</b> WCBM Workshop CoRL 2024
+        </h1>
+        <h1 class="is-2 is-italic is-size-4-mobile" style="font-size: 1.5rem; opacity: 80%;">
+          X-Embodiment Workshop CoRL 2024
+        </h1> -->
+        
+        </div>
+      </div>
+  
+    </div>
+  
+    <!-- Hero footer: will stick at the bottom -->
+    <!-- <div class="hero-foot is-hidden-mobile">
+      <nav class="tabs is-boxed is-fullwidth is-size-4">
+        <ul>
+          <li><a href="#agile-skills">Agile Whole-Body Skills</a></li>
+          <li><a href="#before-after-asap"></a>Before/After ASAP Fine-tuning</a></li>
+          <li><a href="#abstract">Abstract</a></li>
+          <li><a href="#method">Method</a></li>
+        </ul>
+      </nav>
+    </div> -->
+  </section>  
+
+  
   <section class="hero">
     <div class="hero-body">
       <div class="container is-max-desktop">
         <div class="columns is-centered">
-          <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">PIN-WM: Learning Physics-INformed World Models for Non-Prehensile Manipulation</h1>
+          <div class="container has-text-centered">
+            <h1 class="title is-1 publication-title" style="font-size: 3rem;">
+              Learning Physics-INformed World Models for Non-Prehensile Manipulation
+            </h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
@@ -138,54 +191,68 @@
     </div>
   </div>
 </section> -->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <img src="static/images/pipline.png" alt="Banner Image" style="width: 100%; height: auto;">
-      <!-- <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2> -->
-    </div>
-  </div>
-</section>
-<!-- End teaser video -->
 
 <!-- Paper abstract -->
-<section class="section hero is-light">
+<section class="section hero" style="margin-top: 0; padding-top: 0;">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
-          <p>
-            While non-prehensile manipulation (e.g., controlled
-              pushing/poking) constitutes a foundational robotic skill, its learn-
-              ing remains challenging due to the high sensitivity to complex
-              physical interactions involving friction and restitution. To achieve
-              robust policy learning and generalization, we opt to learn a
+          <p style="font-size: 1.1rem">
+              <b>While non-prehensile manipulation (e.g., controlled
+              pushing/poking) constitutes a foundational robotic skill, its learning
+               remains challenging due to the high sensitivity to complex
+              physical interactions</b> involving friction and restitution.
+              To achieve robust policy learning and generalization, we opt to learn a
               world model of the 3D rigid body dynamics involved in non-
-              prehensile manipulations and use it for model-based reinforce-
-              ment learning. We propose PIN-WM, a Physics-INformed World
+              prehensile manipulations and use it for model-based reinforcement learning. <br><br>
+              We propose <b>PIN-WM</b>, a Physics-INformed World
               Model that enables efficient end-to-end identification of a 3D
               rigid body dynamical system from visual observations. Adopting
-              differentiable physics simulation, PIN-WM can be learned with
-              only few-shot and task-agnostic physical interaction trajectories.
+              differentiable physics simulation, <b>PIN-WM can be learned with
+              only few-shot and task-agnostic physical interaction trajectories.</b>
               Further, PIN-WM is learned with observational loss induced
               by Gaussian Splatting without needing state estimation. To
               bridge Sim2Real gaps, we turn the learned PIN-WM into a
               group of Digital Cousins via physics-aware perturbations which
               perturb physics and rendering parameters to generate diverse
-              and meaningful variations of the PIN-WM. Extensive evaluations
+              and meaningful variations of the PIN-WM. <br><br>
+              Extensive evaluations
               on both simulation and real-world tests demonstrate that PIN-
               WM, enhanced with physics-aware digital cousins, facilitates
               learning robust non-prehensile manipulation skills with Sim2Real
-              transfer, surpassing the Real2Sim2Real state-of-the-arts.
+              transfer, <b>surpassing the Real2Sim2Real state-of-the-arts</b>.
           </p>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="title is-3  has-text-centered">Method</h2>
+      <img src="static/images/pipline.png" alt="Banner Image" style="width: 100%; height: auto;">
+      <h2 class="subtitle">
+        <h2 class="title is-5  has-text-centered">A.Real2Sim System Identification:</h2>
+        <!-- <b style="font-size: 1.5rem">A.Real2Sim System Identification :</b><br><br> -->
+        <b><i>(a) Rendering alignment</i></b> : The robot in the target domain moves around the object, capturing multi-view observations to estimate the rendering parameters 𝜶 of 2D Gaussian Splats.<br><br>
+        <b><i>(b) Identification of physics parameters</i></b> : Once optimized, 𝜶 is frozen. Both source and target domain apply the same task-agnostic physical interactions 𝒂<i><sub>t</sub></i>. 
+        In the source domain, dynamics are computed via LCP with physical parameters <i>θ</i> to update the rendering. <i>θ</i>  is then optimized with the rendering loss between two domains.<br><br>
+        <h2 class="title is-5  has-text-centered">B.Sim2Real Policy Transfer:</h2>
+        <!-- <b style="font-size: 1.5rem">B.Sim2Real Policy Transfer :</b><br><br> -->
+        <b><i>(c) Policy learning with physics-aware digital cousins</i></b> : The identified world model is then used for policy learning. Physics-aware perturbations are introduced to 𝜶 and <i>θ</i> to mitigate the remained discrepancies from inaccurate observations.<br><br>
+        <b><i>(d) Transfer to the target domain without fine-tuning</i></b> : This ensemble of perturbed world models enhances the Sim2Real transferability of learned policies.
+         
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+
 <!-- End paper abstract -->
 
 
