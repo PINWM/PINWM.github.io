@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
   <!-- Replace the content tag with appropriate information -->
   <meta name="description" content="DESCRIPTION META TAG">
-  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
-  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
-  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG" />
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG" />
+  <meta property="og:url" content="URL OF THE WEBSITE" />
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
   <meta property="og:image" content="static/image/your_banner_image.png" />
-  <meta property="og:image:width" content="1200"/>
-  <meta property="og:image:height" content="630"/>
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
 
 
   <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
@@ -33,8 +34,7 @@
   <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
   <link rel="stylesheet" href="static/css/bulma-slider.min.css">
   <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
-  <link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="static/css/index.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -44,23 +44,12 @@
   <script src="static/js/bulma-slider.min.js"></script>
   <script src="static/js/index.js"></script>
 </head>
+
+
 <body>
-
-
-  <section class="hero is-link is-fullheight video" style="overflow: hidden; position:relative; background-image: url('./static/images/cover.png'); background-size: cover; background-position: center;">
-    <div class="hero-video" style="height: 100%; width: 177.77777778vh; min-width: 100%;min-height: 56.25vw;">
-      <!-- <video playsinline autoplay muted loop>
-        <source src="./static/videos/cover_video.mp4" type="video/mp4">
-      </video> -->
-    </div>
-    <!-- <div class="hero-video is-hidden-tablet is-inline-block-mobile"
-      style="height: 154.28571428vw; width: 100%; min-width:64.81481481vh;min-height:100%;">
-      <video playsinline autoplay muted loop>
-        <source src=" ./static/videos/cover_video.mp4" type="video/mp4">
-      </video>
-    </div> -->
-    
-    <!-- Hero content: will be in the middle -->
+  <!----- cover ----->
+  <section class="hero is-link is-fullheight video"
+    style="overflow: hidden; position:relative; background-image: url('./static/images/cover.png'); background-size: cover; background-position: center;">
     <div class="hero-body">
       <div class="container has-text-centered">
         <h1 class="title is-1 publication-title is-size-1-mobile" style="font-size: 6rem;">
@@ -72,148 +61,322 @@
         <h1 class="is-2 is-italic is-size-4-mobile" style="font-size: 2rem; opacity: 80%;">
           Robotics: Science and Systems (RSS) 2025
         </h1>
-        <!--  <h1 class="is-2 is-italic is-size-4-mobile" style="font-size: 1.5rem; opacity: 80%;">
-          <b>Spotlight</b> WCBM Workshop CoRL 2024
-        </h1>
-        <h1 class="is-2 is-italic is-size-4-mobile" style="font-size: 1.5rem; opacity: 80%;">
-          X-Embodiment Workshop CoRL 2024
-        </h1> -->
-        
-        </div>
       </div>
-  
     </div>
-  
-    <!-- Hero footer: will stick at the bottom -->
-    <!-- <div class="hero-foot is-hidden-mobile">
-      <nav class="tabs is-boxed is-fullwidth is-size-4">
-        <ul>
-          <li><a href="#agile-skills">Agile Whole-Body Skills</a></li>
-          <li><a href="#before-after-asap"></a>Before/After ASAP Fine-tuning</a></li>
-          <li><a href="#abstract">Abstract</a></li>
-          <li><a href="#method">Method</a></li>
-        </ul>
-      </nav>
-    </div> -->
-  </section>  
+    </div>
+  </section>
 
-  
+
+  <!----- Main content ----->
   <section class="hero">
     <div class="hero-body">
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="container has-text-centered">
+            <!-- Paper title -->
             <h1 class="title is-1 publication-title" style="font-size: 3rem;">
               Learning Physics-INformed World Models for Non-Prehensile Manipulation
             </h1>
+
+            <!-- Paper authors -->
             <div class="is-size-5 publication-authors">
-              <!-- Paper authors -->
               <span class="author-block">
                 <a href="https://github.com/XuAdventurer" target="_blank">Wenxuan Li<sup>1,∗</sup> </a>,</span>
-                <a href="http://alexfrom0815.github.io" target="_blank">Hang Zhao<sup>2,∗</sup> </a>,</span>
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Zhiyuan Yu<sup>2</sup> </a>,</span>
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Yu Du<sup>1</sup> </a>,</span>
-                <a href="https://sites.google.com/site/qinzoucn" target="_blank">Qin Zou<sup>2,4</sup> </a>,</span>
-                <a href="https://csse.szu.edu.cn/staff/ruizhenhu/" target="_blank">Ruizhen Hu<sup>3,&dagger;</sup> </a>,</span>
-                <a href="http://kevinkaixu.net" target="_blank">Kai Xu<sup>1,&dagger;</sup> </a>,</span>
+              <a href="http://alexfrom0815.github.io" target="_blank">Hang Zhao<sup>2,∗</sup> </a>,</span>
+              <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Zhiyuan Yu<sup>2</sup> </a>,</span>
+              <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Yu Du<sup>1</sup> </a>,</span>
+              <a href="https://sites.google.com/site/qinzoucn" target="_blank">Qin Zou<sup>2,4</sup> </a>,</span>
+              <a href="https://csse.szu.edu.cn/staff/ruizhenhu/" target="_blank">Ruizhen Hu<sup>3,&dagger;</sup>
+              </a>,</span>
+              <a href="http://kevinkaixu.net" target="_blank">Kai Xu<sup>1,&dagger;</sup> </a>,</span>
             </div>
 
-
-
+            <!-- Paper authors other infos-->
             <div class="is-size-5 publication-authors">
-              <span class="author-block"><sup>1</sup>National University of Defense Technology &nbsp;&nbsp;&nbsp; <sup>2</sup>Wuhan University&nbsp;&nbsp;&nbsp; <sup>2</sup>Shenzhen University</span>
-              <span class="author-block"><sup>4</sup>Guangdong Laboratory of Artificial Intelligence and Digital Economy</span>
-              <span class="eql-cntrb"><br><sup>*</sup>Equal contributions&nbsp;&nbsp;&nbsp;&nbsp;<sup>&dagger;</sup>Corresponding author</span>
+              <span class="author-block"><sup>1</sup>National University of Defense Technology &nbsp;&nbsp;&nbsp;
+                <sup>2</sup>Wuhan University&nbsp;&nbsp;&nbsp; <sup>2</sup>Shenzhen University</span>
+              <span class="author-block"><sup>4</sup>Guangdong Laboratory of Artificial Intelligence and Digital
+                Economy</span>
+              <span class="eql-cntrb"><br><sup>*</sup>Equal
+                contributions&nbsp;&nbsp;&nbsp;&nbsp;<sup>&dagger;</sup>Corresponding author</span>
             </div>
 
+            <!-- school logo-->
             <div class="column has-text-centered">
               <image src="./static/images/nudt_logo.png" style="width: 32%;"></image>
               <image src="./static/images/whu_log.png" style="width: 32%;"></image>
               <image src="./static/images/szu_logo.png" style="width: 32%;"></image>
-              <!-- <image src="./static/images/pazhou_lab_logo.png" style="width: 30%;"></image> -->
             </div>
 
+            <!-- Links and videos-->
             <div class="column has-text-centered">
+              <!-- Links-->
               <div class="publication-links">
-                    <!-- Arxiv PDF link -->
+                <!-- Arxiv PDF link -->
                 <span class="link-block">
                   <a href="./static/pdfs/pin_wm_paper.pdf" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="fas fa-file-pdf"></i>
-                  </span>
-                  <span>Paper</span>
-                </a>
-              </span>
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
 
                 <!-- ArXiv link -->
                 <span class="link-block">
                   <a href="https://arxiv.org/abs/2504.16693" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
 
                 <!-- Github link -->
                 <span class="link-block">
                   <a href="https://github.com/YOUR REPO HERE" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="fab fa-github"></i>
-                  </span>
-                  <span>Code(Coming Soon)</span>
-                </a>
-              </span>
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code(Coming Soon)</span>
+                  </a>
+                </span>
+              </div>
 
-                <!-- ArXiv abstract Link -->
-                <!-- <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span> -->
+              <!-- videos-->
+              <div>
+                <div class="is-size-3">
+                  <h2 class="title is-3" style="margin-top: 30px;">Push object on a slippery plane</h2>
+                  <section class="hero teaser">
+                    <div class="container">
+                      <div class="hero-body">
+                        <!-- 视频容器 -->
+                        <div class="video-compare-container"
+                          style="display: flex; flex-direction: row; justify-content: space-between; align-items: flex-start; gap: 20px;">
+
+                          <div class="video-container" style="flex: 1;">
+                            <video class="video" id="exp2_render_gt_compare_video1" playsinline autoplay muted controls
+                              src="static/videos/compare/push_t_slide_pinwm.mp4" onplay="resizeAndPlay(this)"
+                              style="width: 100%; height: auto; display: block;">
+                            </video>
+                            <span style="margin-top: 6px;font-size: 1.5rem;">
+                              PIN-WM
+                            </span>
+                          </div>
+
+                          <div class="video-container" style="flex: 1;">
+                            <video class="video" id="exp2_render_gt_compare_video2" playsinline autoplay muted controls
+                              src="static/videos/compare/push_t_slide_baseline.mp4" onplay="resizeAndPlay(this)"
+                              style="width: 100%; height: auto; display: block;">
+                            </video>
+                            <span style="margin-top: 6px;font-size: 1.5rem;">
+                              Baseline
+                            </span>
+                          </div>
+                        </div>
+
+                        <div class="video-compare-container"
+                          style="margin-top: 30px; display: flex; flex-direction: row; justify-content: space-between; align-items: flex-start; gap: 20px;">
+
+                          <div class="video-container" style="flex: 1;">
+                            <video class="video" id="exp2_render_gt_compare_video1" playsinline autoplay muted controls
+                              src="static/videos/compare/push_cube_slide_pinwm.mp4" onplay="resizeAndPlay(this)"
+                              style="width: 100%; height: auto; display: block;">
+                            </video>
+                            <span style="margin-top: 6px;font-size: 1.5rem;">
+                              PIN-WM
+                            </span>
+                          </div>
+
+                          <div class="video-container" style="flex: 1;">
+                            <video class="video" id="exp2_render_gt_compare_video2" playsinline autoplay muted controls
+                              src="static/videos/compare/push_cube_slide_baseline.mp4" onplay="resizeAndPlay(this)"
+                              style="width: 100%; height: auto; display: block;">
+                            </video>
+                            <span style="margin-top: 6px;font-size: 1.5rem;">
+                              Baseline
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+
+                <div class="is-size-3">
+                  <h2 class="title is-3" style="margin-top: -30px;">Push object on a rough plane</h2>
+                  <section class="hero teaser">
+                    <div class="container">
+                      <div class="hero-body">
+                        <!-- 视频容器 -->
+                        <div class="video-compare-container"
+                          style="display: flex; flex-direction: row; justify-content: space-between; align-items: flex-start; gap: 20px;">
+
+                          <div class="video-container" style="flex: 1;">
+                            <video class="video" id="exp2_render_gt_compare_video1" playsinline autoplay muted controls
+                              src="static/videos/compare/push_t_rough_pinwm.mp4" onplay="resizeAndPlay(this)"
+                              style="width: 100%; height: auto; display: block;">
+                            </video>
+                            <span style="margin-top: 6px;font-size: 1.5rem;">
+                              PIN-WM
+                            </span>
+                          </div>
+
+                          <div class="video-container" style="flex: 1;">
+                            <video class="video" id="exp2_render_gt_compare_video2" playsinline autoplay muted controls
+                              src="static/videos/compare/push_t_rough_baseline.mp4" onplay="resizeAndPlay(this)"
+                              style="width: 100%; height: auto; display: block;">
+                            </video>
+                            <span style="margin-top: 6px;font-size: 1.5rem;">
+                              Baseline
+                            </span>
+                          </div>
+                        </div>
+
+
+                      </div>
+                    </div>
+                  </section>
+                </div>
+
+                <div class="is-size-3">
+                  <h2 class="title is-3" style="margin-top: -30px;">Flip object on a rough plane</h2>
+                  <section class="hero teaser">
+                    <div class="container">
+                      <div class="hero-body">
+                        <!-- 视频容器 -->
+                        <div class="video-compare-container"
+                          style="display: flex; flex-direction: row; justify-content: space-between; align-items: flex-start; gap: 20px;">
+
+                          <div class="video-container" style="flex: 1;">
+                            <video class="video" id="exp2_render_gt_compare_video1" playsinline autoplay muted controls
+                              src="static/videos/compare/flip_cube_rough_pinwm.mp4" onplay="resizeAndPlay(this)"
+                              style="width: 100%; height: auto; display: block;">
+                            </video>
+                            <span style="margin-top: 6px;font-size: 1.5rem;">
+                              PIN-WM
+                            </span>
+                          </div>
+
+                          <div class="video-container" style="flex: 1;">
+                            <video class="video" id="exp2_render_gt_compare_video2" playsinline autoplay muted controls
+                              src="static/videos/compare/flip_cube_rough_baseline.mp4" onplay="resizeAndPlay(this)"
+                              style="width: 100%; height: auto; display: block;">
+                            </video>
+                            <span style="margin-top: 6px;font-size: 1.5rem;">
+                              Baseline
+                            </span>
+                          </div>
+                        </div>
+
+
+                      </div>
+                    </div>
+                  </section>
+                </div>
+
+                <div class="is-size-3">
+                  <h2 class="title is-3" style="margin-top: -30px;">Other results</h2>
+                  <section class="hero teaser">
+                    <div class="container">
+                      <div class="hero-body">
+                        <!-- 视频容器 -->
+                        <div class="video-compare-container" style="display: flex;
+                              flex-direction: row;
+                              flex-wrap: wrap;              /* 允许换行 */
+                              justify-content: space-between;
+                              align-items: flex-start;
+                              gap: 20px;
+                              margin-top: 5px;">
+
+                          <!-- 重复 8 次，只示范前 4 个 -->
+                          <div class="video-container" style="flex: 0 0 calc(25% - 15px);  /* 四列，每列宽度 = (100% - 3*20px)/4 */
+                                margin-bottom: 5px;"> <!-- 行间距 -->
+                            <video class="video" playsinline autoplay muted controls
+                              src="static/videos/others/push_t_middle_1.mp4" onplay="resizeAndPlay(this)"
+                              onended="this.pause()" style="width: 100%; height: auto; display: block;">
+                            </video>
+                          </div>
+
+                          <div class="video-container" style="flex: 0 0 calc(25% - 15px);
+                                margin-bottom: 5px;">
+                            <video class="video" playsinline autoplay muted controls
+                              src="static/videos/others/push_t_middle_2.mp4" onplay="resizeAndPlay(this)"
+                              onended="this.pause()" style="width: 100%; height: auto; display: block;">
+                            </video>
+                          </div>
+
+                          <div class="video-container" style="flex: 0 0 calc(25% - 15px);
+                                margin-bottom: 5px;">
+                            <video class="video" playsinline autoplay muted controls
+                              src="static/videos/others/flip_cube_1.mp4" onplay="resizeAndPlay(this)"
+                              onended="this.pause()" style="width: 100%; height: auto; display: block;">
+                            </video>
+                          </div>
+
+                          <div class="video-container" style="flex: 0 0 calc(25% - 15px);
+                                margin-bottom: 5px;">
+                            <video class="video" playsinline autoplay muted controls
+                              src="static/videos/others/flip_cube_2.mp4" onplay="resizeAndPlay(this)"
+                              onended="this.pause()" style="width: 100%; height: auto; display: block;">
+                            </video>
+                          </div>
+
+                          <div class="video-container" style="flex: 0 0 calc(25% - 15px);  /* 四列，每列宽度 = (100% - 3*20px)/4 */
+                                margin-bottom: 20px;"> <!-- 行间距 -->
+                            <video class="video" playsinline autoplay muted controls
+                              src="static/videos/others/push_t_small_1.mp4" onplay="resizeAndPlay(this)"
+                              onended="this.pause()" style="width: 100%; height: auto; display: block;">
+                            </video>
+                          </div>
+
+                          <div class="video-container" style="flex: 0 0 calc(25% - 15px);
+                                margin-bottom: 20px;">
+                            <video class="video" playsinline autoplay muted controls
+                              src="static/videos/others/push_t_small_2.mp4" onplay="resizeAndPlay(this)"
+                              onended="this.pause()" style="width: 100%; height: auto; display: block;">
+                            </video>
+                          </div>
+
+                          <div class="video-container" style="flex: 0 0 calc(25% - 15px);
+                                margin-bottom: 20px;">
+                            <video class="video" playsinline autoplay muted controls
+                              src="static/videos/others/push_t_small_3.mp4" onplay="resizeAndPlay(this)"
+                              onended="this.pause()" style="width: 100%; height: auto; display: block;">
+                            </video>
+                          </div>
+
+                          <div class="video-container" style="flex: 0 0 calc(25% - 15px);
+                                margin-bottom: 20px;">
+                            <video class="video" playsinline autoplay muted controls
+                              src="static/videos/others/push_t_small_4.mp4" onplay="resizeAndPlay(this)"
+                              onended="this.pause()" style="width: 100%; height: auto; display: block;">
+                            </video>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-      </div>
-  </div>
-
-</section>
+  </section>
 
 
-<!-- Teaser video-->
-<!-- <section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <source src="static/videos/banner_video.mp4"
-        type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
-    </div>
-  </div>
-</section> -->
-
-<!-- Paper abstract -->
-<section class="section hero" style="margin-top: 0; padding-top: 0;">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p style="font-size: 1.1rem">
+  <!-- Paper abstract -->
+  <section class="section hero" style="margin-top: -50px; padding-top: 0;">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p style="font-size: 1.1rem">
               <b>While non-prehensile manipulation (e.g., controlled
-              pushing/poking) constitutes a foundational robotic skill, its learning
-               remains challenging due to the high sensitivity to complex
-              physical interactions</b> involving friction and restitution.
+                pushing/poking) constitutes a foundational robotic skill, its learning
+                remains challenging due to the high sensitivity to complex
+                physical interactions</b> involving friction and restitution.
               To achieve robust policy learning and generalization, we opt to learn a
               world model of the 3D rigid body dynamics involved in non-
               prehensile manipulations and use it for model-based reinforcement learning. <br><br>
@@ -221,7 +384,7 @@
               Model that enables efficient end-to-end identification of a 3D
               rigid body dynamical system from visual observations. Adopting
               differentiable physics simulation, <b>PIN-WM can be learned with
-              only few-shot and task-agnostic physical interaction trajectories.</b>
+                only few-shot and task-agnostic physical interaction trajectories.</b>
               Further, PIN-WM is learned with observational loss induced
               by Gaussian Splatting without needing state estimation. To
               bridge Sim2Real gaps, we turn the learned PIN-WM into a
@@ -233,195 +396,61 @@
               WM, enhanced with physics-aware digital cousins, facilitates
               learning robust non-prehensile manipulation skills with Sim2Real
               transfer, <b>surpassing the Real2Sim2Real state-of-the-arts</b>.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <h2 class="title is-3  has-text-centered">Method</h2>
-      <img src="static/images/pipline.png" alt="Banner Image" style="width: 100%; height: auto;">
-      <h2 class="subtitle">
-        <h2 class="title is-5  has-text-centered">A.Real2Sim System Identification:</h2>
-        <!-- <b style="font-size: 1.5rem">A.Real2Sim System Identification :</b><br><br> -->
-        <p style="font-size: 18px; line-height: 1.5;">
-          <b><i>(a) Rendering alignment</i></b> : The robot in the target domain moves around the object, capturing multi-view observations to estimate the rendering parameters 𝜶 of 2D Gaussian Splats.<br>
-          <!-- <div style="height: 6px;"></div> -->
-          <b><i>(b) Identification of physics parameters</i></b> : Once optimized, 𝜶 is frozen. Both source and target domain apply the same task-agnostic physical interactions 𝒂<i><sub>t</sub></i>. 
-          In the source domain, dynamics are computed via LCP with physical parameters <i>θ</i> to update the rendering. <i>θ</i>  is then optimized with the rendering loss between two domains.<br><br>
-        </p>
-
-        <h2 class="title is-5  has-text-centered">B.Sim2Real Policy Transfer:</h2>
-        <p style="font-size: 18px; line-height: 1.5;">
-          <b><i>(c) Policy learning with physics-aware digital cousins</i></b> : The identified world model is then used for policy learning. Physics-aware perturbations are introduced to 𝜶 and <i>θ</i> to mitigate the remained discrepancies from inaccurate observations.<br>
-          <!-- <div style="height: 10px;"></div> -->
-          <b><i>(d) Transfer to the target domain without fine-tuning</i></b> : This ensemble of perturbed world models enhances the Sim2Real transferability of learned policies.
-        </p>
-
-      </h2>
-    </div>
-  </div>
-</section>
-<!-- End teaser video -->
-
-
-<!-- End paper abstract -->
-
-
-<!-- Image carousel -->
-<!-- <section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item"> -->
-        <!-- Your image here -->
-        <!-- <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item"> -->
-        <!-- Your image here -->
-        <!-- <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item"> -->
-        <!-- Your image here -->
-        <!-- <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item"> -->
-      <!-- Your image here -->
-      <!-- <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
-  </div>
-</div>
-</div>
-</section> -->
-<!-- End image carousel -->
-
-
-
-
-<!-- Youtube video -->
-<!-- <section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container"> -->
-      <!-- Paper video. -->
-      <!-- <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video"> -->
-            <!-- Youtube embed code here -->
-            <!-- <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </p>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section> -->
-<!-- End youtube video -->
+  </section>
 
-
-<!-- Video carousel -->
-<!-- <section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%"> -->
-            <!-- Your video file here -->
-            <!-- <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%"> -->
-            <!-- Your video file here -->
-            <!-- <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\ -->
-            <!-- Your video file here -->
-            <!-- <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
-<!-- End video carousel -->
-
-
-
-
-
-
-<!-- Paper poster -->
-<!-- <section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section> -->
-<!--End paper poster -->
-
-
-<!--BibTex citation -->
-  <!-- <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
-    </div>
-</section> -->
-<!--End BibTex citation -->
-
-
-  <!-- <footer class="footer">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-
-          <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
+    <!-- Paper mthod -->
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <h2 class="title is-3  has-text-centered">Method</h2>
+        <img src="static/images/pipline.png" alt="Banner Image" style="width: 100%; height: auto;">
+        <h2 class="subtitle">
+          <h2 class="title is-5  has-text-centered">A.Real2Sim System Identification:</h2>
+          <!-- <b style="font-size: 1.5rem">A.Real2Sim System Identification :</b><br><br> -->
+          <p style="font-size: 18px; line-height: 1.5;">
+            <b><i>(a) Rendering alignment</i></b> : The robot in the target domain moves around the object, capturing
+            multi-view observations to estimate the rendering parameters 𝜶 of 2D Gaussian Splats. Once optimized, 𝜶 is
+            frozen.<br>
+            <!-- <div style="height: 6px;"></div> -->
+            <b><i>(b) Identification of physics parameters</i></b> : Both source and target domain apply the same
+            task-agnostic physical interactions 𝒂<i><sub>t</sub></i>.
+            In the source domain, dynamics are computed via LCP with physical parameters <i>θ</i> to update the
+            rendering. <i>θ</i> is then optimized with the rendering loss between two domains.<br><br>
           </p>
 
-        </div>
+          <h2 class="title is-5  has-text-centered">B.Sim2Real Policy Transfer:</h2>
+          <p style="font-size: 18px; line-height: 1.5;">
+            <b><i>(c) Policy learning with physics-aware digital cousins</i></b> : The identified world model is then
+            used for policy learning. Physics-aware perturbations are introduced to 𝜶 and <i>θ</i> to mitigate the
+            remained discrepancies from inaccurate observations.<br>
+            <!-- <div style="height: 10px;"></div> -->
+            <b><i>(d) Transfer to the target domain without fine-tuning</i></b> : This ensemble of perturbed world
+            models enhances the Sim2Real transferability of learned policies.
+          </p>
+
+        </h2>
       </div>
     </div>
-  </div>
-</footer> -->
+  </section>
 
+  <!-- BibTex citation -->
+  <section class="section" style="margin-top: -50px;" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title has-text-centered">BibTeX</h2>
+      <pre><code>@article{li2025pin,
+        title={PIN-WM: Learning Physics-INformed World Models for Non-Prehensile Manipulation},
+        author={Li, Wenxuan and Zhao, Hang and Yu, Zhiyuan and Du, Yu and Zou, Qin and Hu, Ruizhen and Xu, Kai},
+        journal={arXiv preprint arXiv:2504.16693},
+        year={2025}
+      }</code></pre>
+    </div>
+  </section>
 
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+</body>
 
-    <!-- End of Statcounter Code -->
-
-  </body>
-  </html>
+</html>
